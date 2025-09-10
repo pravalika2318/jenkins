@@ -5,13 +5,13 @@ public class Palindrome{
             return;
 
         }
-        string str =args[0];
-        if(is Palindrome(str))
+        String str =args[0];
+        if(isPalindrome(str))
         {
-            System.out.println(word +"is a palindrome!");
+            System.out.println(str + " is a palindrome!");
         }
         else{
-            System.out.println(word + "is not a palindrome!");
+            System.out.println(str + " is not a palindrome!");
 
         }
         }
